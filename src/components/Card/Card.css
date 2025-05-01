@@ -1,0 +1,85 @@
+.cardSection {
+    padding: 100px 0px 121px 0px;
+}
+
+.CardContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.ant-card-head {
+    border-bottom: 0px !important;
+    padding: 15px 30px 15px 30px !important;
+}
+
+.ant-card-body {
+    padding: 0px 30px !important;
+}
+
+.ant-card-head-title {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    display: block !important;
+    flex: 0.2 !important;
+    overflow: inherit !important;
+}
+
+.ant-card-head-title:hover {
+    border-bottom: 2px solid #E8AA31;
+    width: 68px !important;
+}
+
+.cardInformation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardItem {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.cardItemContent::before {
+    content: "•";
+    color: #E8AA31;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media only screen and (max-width: 1315px) {
+    .CardContent {
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .ant-card-head-title {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .cards {
+        width: 255px !important;
+    }
+
+    .cardImage img {
+        width: 100%;
+    }
+
+    .cardInformation {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .Card {
+        padding: 10px 0px;
+    }
+}

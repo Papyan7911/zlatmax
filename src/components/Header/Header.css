@@ -1,0 +1,258 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.topHeader {
+    padding: 25px 0px;
+}
+
+.navbarIcons {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.navbarIcon {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.navbarIcon:hover {
+    color: #E8AA31;
+    border-bottom: 2px solid #E8AA31;
+}
+
+.topHeaderContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.private {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.privateText {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottomHeader {
+    padding: 25px 0px;
+    color: #ECF1F2;
+}
+
+.bottomHeaderContent {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.bottomHeaderLeft {
+    display: flex;
+    gap: 158px;
+}
+
+.bottomHeaderRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.searchImg img {
+    width: 12px;
+}
+
+.information {
+    display: flex;
+    gap: 55px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.basket {
+    display: flex;
+    gap: 15px;
+}
+
+.searchInput {
+    width: 377px;
+    height: 41px;
+    border: 1px solid #04040480;
+    border-radius: 3px;
+    color: #07070708;
+    font-size: 14px;
+    padding-left: 27px;
+}
+
+.searchImg {
+    position: relative;
+    bottom: 30px;
+    left: 12px;
+    width: 11px;
+}
+
+.place {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.placeImg {
+    width: 24px;
+    height: 24px;
+}
+
+.placeText {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.number p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.number select {
+    border: none;
+    color: #E8AA31;
+    width: 15px;
+}
+
+.phoneNumber h4 {
+    color: #E8AA31;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.basketText p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.basketText h4 {
+    color: #E8AA31;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.mediaHeader {
+    padding: 25px 0px;
+    background-color: #141414;
+    display: none;
+}
+
+.mediaHeaderContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1650px) {
+    .bottomHeaderLeft {
+        gap: 72px;
+    }
+
+    .searchInput {
+        width: 235px;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .information {
+        display: none;
+    }
+
+    .bottomHeaderLeft {
+        gap: 150px;
+    }
+
+    .searchInput {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .bottomHeaderLeft {
+        gap: 100px;
+    }
+
+    .searchInput {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .bottomHeaderLeft {
+        gap: 70px;
+    }
+
+    .searchInput {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navbarIcons {
+        gap: 33px;
+    }
+
+    .bottomHeaderLeft {
+        gap: 30px;
+    }
+
+    .searchInput {
+        width: 170px;
+    }
+
+    .order {
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .topHeader {
+        display: none;
+    }
+
+    .mediaHeader {
+        display: block;
+    }
+
+    .bottomHeaderInput {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .bottomHeaderRight {
+        display: none;
+    }
+}

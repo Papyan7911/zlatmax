@@ -1,0 +1,129 @@
+.secondsection {
+    background-image: url("../../../public/assets/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 44px 0px 60px 0px;
+}
+
+.secondsectionTopText h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.secondsectionTopText h2 span {
+    font-weight: 500;
+}
+
+.secondsectionTopText p {
+    color: #FFFFFFB2;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 24px;
+    width: 915px;
+}
+
+.secondsectionTopText p span {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.secondsectionTop {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.secondsectionTopText button {
+    width: 228px;
+    height: 50px;
+    background-color: #E8AA31;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-top: 60px;
+}
+.secondsectionTopText button:hover{
+    background-color: #bd7e00;
+}
+.secondsectionBottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 150px;
+}
+
+.secondsectionImg {
+    text-align: center;
+}
+
+.secondsectionText p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 17px;
+    line-height: 32px;
+}
+
+
+
+
+@media only screen and (max-width: 1720px) {
+    .secondsectionTopText p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1209px) {
+    .secondsectionTopText p {
+        font-size: 16px;
+        margin-top: 7px;
+    }
+
+    .secondsectionTopText h2 {
+        font-size: 23px;
+    }
+
+    .secondsectionTopText h2 span {
+        font-size: 18px;
+    }
+
+    .secondsectionTopImg img {
+        width: 330px;
+    }
+
+    .secondsectionTopText p span {
+        font-size: 17px;
+    }
+    .secondsectionBottom {
+        justify-content: center;
+        gap: 55px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .secondsectionTop {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .secondsectionTopImg img {
+        width: 260px;
+    }
+
+    .secondsectionTopText button {
+        display: none;
+    }
+
+    .secondsectionBottom {
+        margin-top: 46px;
+        gap: 30px;
+    }
+}

@@ -1,28 +1,22 @@
 import './App.css';
-import Two from './../src/components/sectionTwo/sectionTwo';
-import Three from './../src/components/sectionThree/sectionThree';
-import Four from './../src/components/sectionFour/sectionFour';
-import Five from './../src/components/sectionFive/sectionFive';
-import Six from './../src/components/sectionSix/sectionSix';
-import Seven from './../src/components/sectionSeven/sectionSeven';
-import Eight from './../src/components/sectionEight/sectionEight';
-import Nine from './../src/components/sectionNine/sectionNine';
-import Ten from './../src/components/sectionTen/sectionTen';
-import Eleven from './../src/components/sectionEleven/sectionEleven';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Catalog from './pages/Catalog/Catalog';
+import Firstsection from './components/FirstSection/FirstSection';
+import Secondsection from './components/Secondsection/Secondsection';
+import  Card  from './components/Card/Card';
+
 function App() {
   return (
-    <div className="App">
-      <Two />
-      <Three />
-      <Four />
-      <Five />
-      <Six />
-      <Seven />
-      <Eight />
-      <Nine />
-      <Ten />
-      <Eleven />
-    </div>
+    <Router>
+      <Header />
+      <Firstsection/>
+      <Secondsection/>
+      <Card/>
+      <Routes>
+        <Route path="/catalog" element={<Catalog />} />
+      </Routes>
+    </Router>
   );
 }
 
