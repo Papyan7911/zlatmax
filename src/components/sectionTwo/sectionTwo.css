@@ -1,0 +1,78 @@
+.sectionTwo {
+    padding-left: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.sectionTwoContent {
+    margin-top: 100px;
+}
+
+.sectionTwoContent .knifes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -10px;
+}
+
+.knifes .one {
+    min-width: 511px;
+    max-width: 511px;
+    height: 293px;
+    box-shadow: 0px 4px 20px 0px #00000026;
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.knifes .one:hover {
+    box-shadow: 5px 10px 25px 5px #00000026;
+
+}
+
+.knifes .one .text h3 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    width: 120px;
+}
+
+.knifes .one .text .line {
+    width: 68px;
+    height: 1px;
+    border: 2px solid #E8AA31;
+    background-color: #E8AA31;
+}
+
+.knifes .one .text ul li {
+    list-style: #E8AA31;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    margin-left: -30px;
+}
+
+.knifes .one .text ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.knifes .one .img img{
+    padding-top: -40px;
+}
+
+@media screen and (max-width: 583px) {
+    .knifes .one {
+        width: 461px;
+    }
+}

@@ -1,0 +1,60 @@
+.sectionTen {
+    margin-top: 120px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.sectionTen h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    letter-spacing: 5%;
+    color: #141414;
+    text-align: start;
+}
+
+.sectionTenContent {
+    display: flex;
+    gap: 20px;
+}
+
+.sectionTenContent img {
+    width: 290px;
+}
+
+.three {
+    width: 290px;
+    height: 265px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+
+}
+
+.sectionTenContent h4 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #141414;
+    text-align: start;
+    width: 317px;
+    height: 68px;
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.sectionTenContent p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #ABABAB;
+    text-align: start;
+    margin-top: -20px;
+    padding-left: 20px;
+}

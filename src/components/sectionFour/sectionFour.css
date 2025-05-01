@@ -1,0 +1,75 @@
+.sectionFour {
+    background-image: url('./../../../public/assets/img/bc.png');
+    height: 794px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 201px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.sectionFourContent {
+    display: flex;
+    gap: 66px;
+}
+
+.sectionFourContent .text {
+    width: 336px;
+    text-align: start;
+}
+
+.text h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    letter-spacing: 5%;
+    color: #FFFFFF;
+    text-align: start;
+}
+
+.text p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 10%;
+    color: #FFFFFF;
+    text-align: start;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.text button {
+    border: 0;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 46px;
+    letter-spacing: 5%;
+    color: #E8AA31;
+    text-align: start;
+    margin-top: 60px;
+}
+
+.two {
+    width: 250px;
+    height: 460px;
+    text-align: start;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+.divs {
+    display: flex;
+    gap: 30px;
+    margin-top: 105px;
+}

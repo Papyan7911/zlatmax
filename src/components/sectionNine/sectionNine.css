@@ -1,0 +1,126 @@
+.sectionNine {
+    margin-top: 120px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.hit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hit h4 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    letter-spacing: 5%;
+}
+
+.hit button {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 46px;
+    letter-spacing: 5%;
+    border: 0;
+    background-color: transparent;
+    color: #14141494;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.sectionNineContent {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.sectionNineContent .two {
+    width: 250px;
+    height: 450px;
+    text-align: start;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.two .img {
+    width: 250px;
+}
+
+.two .add {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+
+.two .add p {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #ABABAB;
+
+}
+
+.two .astxs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -11px;
+}
+
+.astxs p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    color: #ABABAB;
+}
+
+.two .l {
+    width: 335.00000000000125;
+    top: 2414px;
+    left: 1365px;
+    border-width: 1px;
+    border: 1px solid #14141480;
+}
+
+.two .gin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gin .buttons button {
+    border: 0;
+    background-color: transparent;
+}
+
+.corzina {
+    width: 235px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #E8AA31;
+    box-shadow: 0px 4px 20px 0px #E8AA316E;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 10px;
+}
