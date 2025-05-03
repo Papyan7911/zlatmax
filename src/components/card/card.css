@@ -1,0 +1,116 @@
+.container {
+    width: 97%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgText {
+    display: flex;
+    gap: 15px;
+}
+
+.imgText img {
+    margin-top: 17px;
+}
+
+.imgText p {
+    color: #141414;
+}
+
+.cards {
+    display: flex;
+}
+
+.cardsOne {
+    width: 385px;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+    margin-top: 62px;
+    border-radius: 5px;
+}
+
+.cards .cardImg {
+    text-align: center;
+}
+
+.cardName {
+    margin-left: 20px;
+    margin-top: 43px;
+}
+
+.cardName .about p {
+    font-size: 16px;
+    color: #ababab;
+}
+
+.cardName .about {
+    display: flex;
+    gap: 160px;
+}
+
+.grade img {
+    width: 150px;
+    height: 22px;
+    margin-top: 15px;
+}
+
+.grade {
+    display: flex;
+    gap: 97px;
+}
+
+.grade p {
+    font-size: 16px;
+    color: #ababab;
+}
+
+.paloska {
+    width: 335px;
+    background-color: #141414;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 26px;
+}
+
+.price {
+    display: flex;
+    gap: 195px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.price .icons {
+    display: flex;
+    width: 26px;
+    height: 24px;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    width: 337px;
+    height: 50px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #e8aa31;
+    font-size: 19px;
+}
+
+button a {
+    color: white;
+}
+
+button img {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: green;
+    transition: 1s;
+}
