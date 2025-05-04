@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Person.css';
+import { Link } from 'react-router-dom';
 
 function Person() {
 
@@ -20,12 +21,13 @@ function Person() {
             </button>
             <nav className={`person ${isMenuOpen ? 'open' : ''}`}>
                 <div className='phoneNumber'>
-                    <div className='number'>
-                        <a href="">
+                    <Link to="/private">
+                        <div className='number'>
                             <p className='privateMenu'>Личный кабинет</p>
-                        </a>
 
-                    </div>
+
+                        </div>
+                    </Link>
 
                 </div>
             </nav>

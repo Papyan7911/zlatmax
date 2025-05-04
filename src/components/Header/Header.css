@@ -22,6 +22,7 @@
 .navbarIcon:hover {
     color: #E8AA31;
     border-bottom: 2px solid #E8AA31;
+    transition: 1s;
 }
 
 .topHeaderContent {
@@ -42,24 +43,24 @@
     font-weight: 600;
 }
 
-.bottomHeader {
+.mediumHeader {
     padding: 25px 0px;
     color: #ECF1F2;
 }
 
-.bottomHeaderContent {
+.mediumHeaderContent {
     display: flex;
     justify-content: space-between;
     gap: 10px;
     align-items: center;
 }
 
-.bottomHeaderLeft {
+.mediumHeaderLeft {
     display: flex;
     gap: 158px;
 }
 
-.bottomHeaderRight {
+.mediumHeaderRight {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,13 +86,21 @@
     display: flex;
     gap: 15px;
 }
-
+.basketImg p{
+    background-color: #E8AA31;
+    border-radius: 50px;
+    width: 14px;
+    height: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+}
 .searchInput {
     width: 377px;
     height: 41px;
     border: 1px solid #04040480;
     border-radius: 3px;
-    color: #07070708;
     font-size: 14px;
     padding-left: 27px;
 }
@@ -170,13 +179,44 @@
     align-items: center;
 }
 
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
 
+.bottomHeader {
+    background-color: #141414;
+    padding: 24px 0px;
+}
 
+.itemContent {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
 
+.itemContent:hover {
+    color: #E8AA31;
+    border-bottom: 2px solid #E8AA31;
+    transition: 1s;
+}
+.privateLink{
+    text-decoration: none;
+}
+.privateLink:hover{
+   background-color: rgb(80, 80, 80);
+   padding: 10px;
+   transition: 0.7s;
+}
 
 
 @media only screen and (max-width: 1650px) {
-    .bottomHeaderLeft {
+    .mediumHeaderLeft {
         gap: 72px;
     }
 
@@ -190,7 +230,7 @@
         display: none;
     }
 
-    .bottomHeaderLeft {
+    .mediumHeaderLeft {
         gap: 150px;
     }
 
@@ -200,7 +240,7 @@
 }
 
 @media only screen and (max-width: 1165px) {
-    .bottomHeaderLeft {
+    .mediumHeaderLeft {
         gap: 100px;
     }
 
@@ -210,7 +250,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .bottomHeaderLeft {
+    .mediumHeaderLeft {
         gap: 70px;
     }
 
@@ -219,12 +259,19 @@
     }
 }
 
+@media only screen and (max-width: 985px) {
+    .itemsContent {
+        display: flex;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .navbarIcons {
         gap: 33px;
     }
 
-    .bottomHeaderLeft {
+    .mediumHeaderLeft {
         gap: 30px;
     }
 
@@ -246,13 +293,19 @@
         display: block;
     }
 
-    .bottomHeaderInput {
+    .mediumHeaderInput {
         display: none;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .bottomHeaderRight {
+    .mediumHeaderRight {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .bottomHeader {
         display: none;
     }
 }
