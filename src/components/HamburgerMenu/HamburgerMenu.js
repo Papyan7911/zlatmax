@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import './HamburgerMenu.css';
 
 function HamburgerMenu() {
+  // State to manage the menu's open/close state
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Toggle the menu open/close
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };

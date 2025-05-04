@@ -22,6 +22,8 @@
     border-radius: 50%;
     margin-right: 10px;
   } 
+  
+  /* Hamburger icon styling */
   .hamburger-icon {
     display: flex;
     flex-direction: column;

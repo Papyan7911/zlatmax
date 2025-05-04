@@ -13,7 +13,6 @@ function Basket() {
             <button className="hamburger-icon" onClick={toggleMenu}>
                 <div className={` ${isMenuOpen ? 'open' : ''}`}>
                     <img src="./assets/img/headerBasket.png" alt="" />
-                    <p className='basketNumber'>0</p>
                 </div>
                 <div className={` ${isMenuOpen ? 'open' : ''}`}></div>
                 <div className={` ${isMenuOpen ? 'open' : ''}`}></div>
@@ -22,7 +21,8 @@ function Basket() {
                 <div className='phoneNumber'>
                     <div className='basketText'>
                         <a href="">
-                            <p>Ваша корзина пуста!</p>
+                            <p>0 р.</p>
+                            <h4>Оформить заказ</h4>
                         </a>
                     </div>
                 </div>

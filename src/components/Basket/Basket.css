@@ -22,6 +22,8 @@
     border-radius: 50%;
     margin-right: 10px;
   } 
+  
+  /* Hamburger icon styling */
   .hamburger-icon {
     display: flex;
     flex-direction: column;
@@ -56,7 +58,7 @@
     position: absolute;
     top: 71px;
     background-color: #333;
-    width: 45%;
+    width: 25%;
     padding: 20px;
     border-radius: 8px;
     z-index: 9;
@@ -92,16 +94,4 @@
     font-weight: bold;
     color: #ff5733;
   }
-  .baskets  p{
-    color: white;
-  }
-  .basketNumber{
-    background-color: #E8AA31;
-    border-radius: 50px;
-    width: 14px;
-    height: 16px;
-    text-align: center;
-    position: relative;
-    bottom: 35px;
-    left: 25px;
-  }
+  

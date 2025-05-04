@@ -22,6 +22,8 @@
     border-radius: 50%;
     margin-right: 10px;
   } 
+  
+  /* Hamburger icon styling */
   .hamburger-icon {
     display: flex;
     flex-direction: column;
@@ -51,12 +53,14 @@
   .bar.open:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
+  
+  /* Menu styling */
   .person {
     display: none;
     position: absolute;
     top: 71px;
     background-color: #333;
-    width: 40%;
+    width: 25%;
     padding: 20px;
     border-radius: 8px;
     z-index: 9;

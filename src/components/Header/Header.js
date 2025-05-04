@@ -4,22 +4,9 @@ import Telephone from '../Telephone/Telephone';
 import Save from '../Save/Save';
 import './Header.css';
 import Basket from '../Basket/Basket';
-import { Link } from 'react-router-dom';
 
 function Header() {
-  const menuItems = [
-    { name: "О нас", href: "/aboutUs" },
-    { name: "Оплата и доставка", href: "/delivery" },
-    { name: "Новости", href: "/news" },
-    { name: "Контакты", href: "/contact" }
-  ]
-  const items = [
-    { name: "Каталог ножей" },
-    { name: "Клинковое оружие" },
-    { name: "Сувенирные изделия" },
-    { name: "Фонари ARMYTEK" },
-    { name: "Сопуствующие товары" }
-  ];
+
   return (
     <header>
       <div className="headerContent">
@@ -51,41 +38,37 @@ function Header() {
               <div className="navbar">
                 <nav>
                   <ul className='navbarIcons'>
-                    {menuItems.map((item, index) => (
-                      <li key={index}>
-                        <Link to={item.href} className='navbarIcon'>{item.name}</Link>
-                      </li>
-                    ))}
+                    <li><a className='navbarIcon' href="/">О нас</a></li>
+                    <li><a className='navbarIcon' href="/about">Оплата и доставка</a></li>
+                    <li><a className='navbarIcon' href="/news">Новости</a></li>
+                    <li><a className='navbarIcon' href="/contact">Контакты</a></li>
                   </ul>
                 </nav>
               </div>
-              <Link to="/private" className='privateLink'>
-                <div className="private">
-
-                  <img src="./assets/img/person.icon.png" alt="" />
-                  <p className='privateText'>Личный кабинет</p>
-                </div>
-              </Link>
+              <div className="private">
+                <img src="./assets/img/person.icon.png" alt="" />
+                <p className='privateText'>Личный кабинет</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="mediumHeader">
+        <div className="bottomHeader">
           <div className="container">
-            <div className="mediumHeaderContent">
-              <div className="mediumHeaderLeft">
-                <div className="mediumHeaderLogo">
+            <div className="bottomHeaderContent">
+              <div className="bottomHeaderLeft">
+                <div className="bottomHeaderLogo">
                   <a href="/">
                     <img src="./assets/img/logo.png" alt="Logo" />
                   </a>
                 </div>
-                <div className="mediumHeaderInput">
+                <div className="bottomHeaderInput">
                   <input className='searchInput' type="text" placeholder='Поиск' />
                   <div className='searchDiv'>
                     <img className='searchImg' src="./assets/img/search.png" alt="searchImage" />
                   </div>
                 </div>
               </div>
-              <div className="mediumHeaderRight">
+              <div className="bottomHeaderRight">
                 <div className='information'>
                   <div className='place'>
                     <img className='placeImg' src="./assets/img/place.png" alt="placeImg" />
@@ -109,7 +92,6 @@ function Header() {
                   <div className='basket'>
                     <div className='basketImg'>
                       <img src="./assets/img/basket.png" alt="basket.png" />
-                      <p>0</p>
                     </div>
                     <div className='basketText'>
                       <p>0 р.</p>
@@ -118,21 +100,6 @@ function Header() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="bottomHeader">
-          <div className="container">
-            <div className="bottomHeaderContent">
-              <nav>
-                <ul className='items'>
-                  {items.map((item, index) => (
-                    <li className='itemsContent' key={index}>
-                      <Link className='itemContent' to={item.href}>{item.name}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
             </div>
           </div>
         </div>
